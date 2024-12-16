@@ -1,1 +1,7 @@
 "* text=auto" 
+# Treat all `.js` files as JSX
+*.js linguist-language=JSX
+
+# Optionally, ensure `.jsx` files are also recognized as JSX
+*.jsx linguist-language=JSX
+
