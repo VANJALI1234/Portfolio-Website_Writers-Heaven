@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+
+    label {
+    color: white;
+    margin-bottom: 1rem; 
+    font-size: 1.2rem;
+}
+.h1{
+    align-items: center;
+    color:aliceblue;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 200px;
+}
+.data{
+    color: aliceblue;
+text-align: center;}
+form {
+    width:700px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 400px;
+    background-color: black; 
+    margin-top: 40px;
+}
+.form{
+    background-color: black;
+}
+form input, form textarea {
+    padding: 10px 8px;
+    font-size: 1.2rem;
+    background-color: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.1);
+    border-radius: 5px;
+}
+form textarea:hover{
+    background-color: ghostwhite;
+
+}
+
+
+button.btn {
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button.btn:hover {
+    background-color:orange;
+}
