@@ -1,7 +1,6 @@
 "* text=auto" 
-# Treat all `.js` files as JSX
-*.js linguist-language=JSX
+# Treat .js files as ReactJS (JSX)
+*.js linguist-language=JavaScriptReact
 
-# Optionally, ensure `.jsx` files are also recognized as JSX
-*.jsx linguist-language=JSX
-
+# Treat .jsx files as ReactJS
+*.jsx linguist-language=JavaScriptReact
