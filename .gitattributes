@@ -1,6 +1,6 @@
 "* text=auto" 
 # Treat .js files as ReactJS (JSX)
 *.js linguist-language=JavaScriptReact
-
 # Treat .jsx files as ReactJS
 *.jsx linguist-language=JavaScriptReact
+*.largefiletype filter=lfs diff=lfs merge=lfs -text
